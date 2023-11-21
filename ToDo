@@ -1,0 +1,68 @@
+Building a decentralized application (DApp) on the blockchain for your committee system involves defining the necessary UI pages and functionalities. Here's a basic breakdown of the pages and functionalities you might consider:
+
+    ### UI Pages:
+    
+    1. **Home Page:**
+       - Overview of the committee system.
+       - Option to create or join a committee.
+       - Display of existing committees and their status.
+    
+    2. **Create Committee Page:**
+       - Form to set up a new committee.
+       - Input for the number of members.
+       - Input for the fixed monthly contribution amount.
+       - Option to invite members.
+    
+    3. **Join Committee Page:**
+       - List of available committees to join.
+       - Join button for each committee.
+       - Information about the committee, such as the number of members and fixed amount.
+    
+    4. **Committee Dashboard:**
+       - Overview of the committee details (number of members, monthly contribution, etc.).
+       - List of committee members.
+       - Current status of the committee cycle (who is receiving funds this month).
+    
+    5. **Committee Transactions Page:**
+       - History of transactions within the committee.
+       - Details of each transaction, including sender, receiver, and amount.
+    
+    6. **Profile Page:**
+       - User details.
+       - List of committees the user is part of.
+       - Transaction history for the user.
+    
+    ### Functionalities:
+    
+    1. **Committee Creation:**
+       - Smart contract function to create a new committee.
+       - Specify the number of members and the fixed monthly contribution.
+    
+    2. **Joining a Committee:**
+       - Smart contract function to allow users to join a committee.
+    
+    3. **Monthly Contribution:**
+       - Smart contract function to handle the monthly contributions from each member.
+    
+    4. **Cycle Distribution:**
+       - Smart contract logic to distribute the pooled funds to a committee member each month.
+       - Update the status of the committee cycle.
+    
+    5. **Committee Status:**
+       - Smart contract function to check the current status of the committee.
+    
+    6. **Transaction History:**
+       - Smart contract function to retrieve transaction history for a user or a committee.
+    
+    7. **Security and Access Control:**
+       - Implement proper access controls to ensure that only authorized users can perform certain actions.
+    
+    8. **Notifications:**
+       - Implement a notification system to inform users of important events, such as their turn to receive funds.
+    
+    9. **Smart Contract Events:**
+       - Emit events from the smart contract for important actions, allowing the UI to update in response to changes on the blockchain.
+    
+    10. **User Authentication:**
+        - Implement user authentication to ensure the security of user accounts.
+    
